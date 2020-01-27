@@ -1,5 +1,8 @@
 # A Dynamic Material Design Card for iOS
 
+## Changing Cards and CardItems
+`CardViewController` makes use of a Card factory that you can use to inject N Cards. A maximum number of Items per Card, MaxItems, can be supplied, and a random number between 1 and maxItems will be included in the card. 
+
 ## CollectionTableCell
 The `CollectionTableCell` is the `UITableViewCell` that will contain a `UICollectionView`. If we want to display a single Card - We will be displaying a tableView with a single Cell. 
 
